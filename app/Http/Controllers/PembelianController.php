@@ -44,7 +44,7 @@ class PembelianController extends Controller
             'kode_pembelian' => $kode_pembelian,
             'tgl_pembelian' => $request-> input('tgl_pembelian'),
             'id_supplier' => $request-> input('id_supplier'),
-            'id_user' =>  Auth::user()->id,
+            'id_user' =>  \Illuminate\Support\Facades\Auth::user()->id,
             
         ];
 
