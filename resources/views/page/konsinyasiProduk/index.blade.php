@@ -32,7 +32,7 @@
                             </div>
                             <div class="mb-5">
                                 <label for="id_produk"
-                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Konsinyasi</label>
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Produk</label>
                                 <select class="js-example-placeholder-single js-states form-control w-full m-6"
                                     name="id_produk" data-placeholder="Pilih Produk">
                                     <option value="">Pilih...</option>
@@ -72,7 +72,7 @@
                                             KONSINYASI
                                         </th>
                                         <th scope="col" class="px-6 py-3">
-                                            ID PRODUK
+                                            PRODUK
                                         </th>
                                         <th scope="col" class="px-6 py-3">
                                             STOK
