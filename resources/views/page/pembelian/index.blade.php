@@ -29,6 +29,9 @@
                                     <th scope="col" class="px-6 py-3">
                                         TANGGAL
                                     </th>
+                                    <th scope="col" class="px-6 py-3">
+                                        ACTION
+                                    </th>
                                    
                                 </tr>
                             </thead>
@@ -47,6 +50,9 @@
                                         </td>
                                         <td class="px-6 py-4">
                                             {{$p->tgl_pembelian}}
+                                        </td>
+                                        <td class="px-6 py-4">
+                                            $2999
                                         </td>
                                        
                                     </tr>
