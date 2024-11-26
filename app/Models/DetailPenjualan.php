@@ -13,7 +13,7 @@ class DetailPenjualan extends Model
         'kode_penjualan',
         'id_produk',
         'qty',
-        'total',
+        'total'
     ];
 
     protected $table = 'detail_penjualan';

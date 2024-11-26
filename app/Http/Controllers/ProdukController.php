@@ -90,7 +90,8 @@ class ProdukController extends Controller
         $produk = Produk::find($id);
 
         return $produk
-         ? respone()->json(['produk' => $produk])
-         : respone()->json(['message' => 'Produk tidak ditemukan'],404);
+            ? response()->json(['produk' => $produk])
+            : response()->json(['message' => 'Produk tidak ditemukan'], 404);
     }
+
 }
